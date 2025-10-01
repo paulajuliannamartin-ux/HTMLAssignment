@@ -10,6 +10,27 @@
 /* ==========================================================================
    Base styles: opinionated defaults
    ========================================================================== */
+body {
+  background-color: beige;
+}
+
+h1 {
+  text-align: center;
+  font color: midnightblue;
+  font-family: "Georgia"
+}
+p{
+  text-align: center;
+  font color: orangered
+  font-family: "Georgia"
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+}
 
 html {
   color: #222;
@@ -243,5 +264,6 @@ textarea {
   h3 {
     page-break-after: avoid;
   }
+
 }
 

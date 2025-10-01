@@ -1,0 +1,48 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Didot', sans-serif;
+}
+
+.navbar{
+  background: #3B1c00;
+  height: 140px;
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  font-size: 1.2rem;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+}
+
+.navbar__container{
+  display: flex;
+  justify-content: space-between;
+  height: 80px;
+  z-index: 1;
+  width: 100%;
+  max-width: 1300px;
+  margin: 0 auto;
+  padding: 0 50px;
+}
+#navbar__logo{
+  background: #1a0c00;
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-colour: transparent;
+  display: flex;
+  align-items: center;
+  cursor: default;
+  text-decoration: none;
+  font-size: 2rem;
+}
+
+.fa-gem{
+  margin-right: 0.5rem;
+}
+
+
